@@ -59,7 +59,7 @@ applications:
     destination:
       namespace: null
       server: null
-    project: default
+    project: null
     source:
       path: pdf-service
       repoURL: https://MY_APPS_REPOSITORY/onboarding/cd-pdf-service.git
@@ -77,7 +77,7 @@ applications:
     destination:
       namespace: null
       server: null
-    project: default
+    project: null
     source:
       path: mailqueue
       repoURL: https://MY_APPS_REPOSITORY/auth/cd-mailqueue.git
@@ -94,7 +94,7 @@ applications:
     destination:
       namespace: null
       server: null
-    project: default
+    project: auth
     source:
       path: api-gateway
       repoURL: https://MY_APPS_REPOSITORY/auth/cd-api-gateway.git
@@ -104,7 +104,7 @@ applications:
     destination:
       namespace: null
       server: null
-    project: default
+    project: auth
     source:
       path: auth-service
       repoURL: https://MY_APPS_REPOSITORY/auth/cd-auth-service.git

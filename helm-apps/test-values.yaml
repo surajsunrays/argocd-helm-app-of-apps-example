@@ -6,22 +6,26 @@ default:
       namespace: test
       server: https://kubernetes.default.svc
     source:
-      targetRevision: test
+      targetRevision: HEAD
 
 
 applications:
   pdf-service:
+    project: default
     enabled: true
     enableAutoSync: true
 
   mailqueue:
+    project: default
     enabled: true
     enableAutoSync: true
 
   api-gateway:
+    project: default
     enabled: true
     enableAutoSync: true
 
   auth-service:
+    project: default
     enabled: true
     enableAutoSync: true
