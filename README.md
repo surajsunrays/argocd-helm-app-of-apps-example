@@ -143,8 +143,8 @@ The templates are driven by the maps in the values.yaml files -- they contains a
     - [Chart.yaml](argocd-example-apps/Chart.yaml)
     - [staging-values.yaml](argocd-example-apps/staging-values.yaml)
     - [production-values.yaml](argocd-example-apps/production-values.yaml)
-    - [test-values.yaml](argocd-example-apps/test-values.yaml)
-    - [values.yaml](argocd-example-apps/values.yaml)
+    - [test-values.yaml](helm-apps/test-values.yaml)
+    - [values.yaml](helm-apps/values.yaml)
 
 To make use of these charts, I create a set of Argo CD Application CRDs. For example, with my argocd-test deployment, I'd deploy the following CRDs into my argocd namespace:
 
