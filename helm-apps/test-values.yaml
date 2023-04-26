@@ -1,5 +1,7 @@
 envName: test
 
+projectOverride: default
+
 default:
   app:
     destination:
