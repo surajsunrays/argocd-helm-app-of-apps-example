@@ -39,18 +39,18 @@ default:
       #    namePrefix: prod-
     #extraFields: |
     #  Default fields you want on all applications, unless the app individually overrides
-
-projects:
-
-  auth:
-    description: 'auth services -- api gateway, auth'
-    sourceRepos:
-    - https://MY_APPS_REPOSITORY/auth/*
-
-  onboarding:
-    description: 'onboarding services -- user PII, etc'
-    sourceRepos:
-    - https://MY_APPS_REPOSITORY/onboarding/*
+#
+#projects:
+#
+#  auth:
+#    description: 'auth services -- api gateway, auth'
+#    sourceRepos:
+#    - https://MY_APPS_REPOSITORY/auth/*
+#
+#  onboarding:
+#    description: 'onboarding services -- user PII, etc'
+#    sourceRepos:
+#    - https://MY_APPS_REPOSITORY/onboarding/*
 
 applications:
 
