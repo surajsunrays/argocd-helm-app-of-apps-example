@@ -140,7 +140,7 @@ The templates are driven by the maps in the values.yaml files -- they contains a
     - __templates__
       - [applications.yaml](argocd-example-apps/templates/applications.yaml)
       - [projects.yaml](argocd-example-infra/extra/projects.yaml)
-    - [Chart.yaml](argocd-example-apps/Chart.yaml)
+    - [Chart.yaml](helm-apps/Chart.yaml)
     - [staging-values.yaml](argocd-example-apps/staging-values.yaml)
     - [production-values.yaml](argocd-example-apps/production-values.yaml)
     - [test-values.yaml](helm-apps/test-values.yaml)
